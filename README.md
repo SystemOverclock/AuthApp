@@ -11,8 +11,8 @@ Aplicativo React Native simples com autenticação via e-mail e código.
 ## Instalação
 
 ```bash
-git clone https://github.com/seu-usuario/MyAuthApp.git
-cd MyAuthApp
+git clone https://github.com/seu-usuario/AuthApp.git
+cd AuthApp
 npm install
 ```
 
