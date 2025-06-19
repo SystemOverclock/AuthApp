@@ -38,12 +38,17 @@ yarn android
 
 ### iOS
 
-Para o iOS, é necessário instalar as dependências do CocoaPods na primeira execução do projeto ou na atualização das dependências nativas.
+Para o iOS, é necessário instalar as dependências do CocoaPods na primeira execução do projeto ou na atualização das dependências nativas. É importante lembrar que a configuração de conta deve ser feita antes de rodar a aplicação.
 
 Na primeira execução, execute o Ruby bundler para instalar o CocoaPods:
 
 ```sh
 bundle install
+sudo gem install cocoapods
+cd ios
+pod install
+cd ..
+
 ```
 
 Cada vez que atualizar as dependências nativas, execute a linha abaixo:
